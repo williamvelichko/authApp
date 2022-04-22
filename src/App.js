@@ -39,14 +39,14 @@ function App() {
 
       <div>
         <Header />
-        {/* <Profile /> */}
+        <Profile />
 
-        {isAuthenticated && (
-          <ul>
-            <button onClick={callApi}>Call API</button>
-            <button onClick={callProtectedApi}>Call Protected Route</button>
-          </ul>
-        )}
+        {/* {isAuthenticated && ( */}
+        <ul>
+          <button onClick={callApi}>Call API</button>
+          <button onClick={callProtectedApi}>Call Protected Route</button>
+        </ul>
+        {/* )} */}
         {/* <Switch>
           <Route exact path="/" component={Login} />
           <Route path="/login" component={Login} />
